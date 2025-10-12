@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 
 // emails credentials
 const userEmail = "frankline3576@gmail.com";
-const pass = "vqconbfwumedwhqw";
+//const pass = "vqconbfwumedwhqw";
 // emeka p you 24 JUNE
 
 // Rate limiter middleware (e.g., 5 requests per minute per IP)
@@ -89,3 +89,4 @@ app.post("/otp", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port http://localhost:${PORT}`);
 });
+
